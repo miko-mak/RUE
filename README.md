@@ -9,7 +9,7 @@ Then run **npm install express** in the terminal.
 - <a href="https://wiki.openstreetmap.org/wiki/Overpass_API" target="_blank">Overpass API</a> (used for querying and filtering geographic data) 
 - <a href="https://nominatim.org/" target="_blank">Nominatim</a> (used to validate city names)
 
-#Tools Used
+## Tools Used
 - <a href="https://leafletjs.com/" target="_blank">LeafLet</a> (used for the world map)
 - <a href="https://expressjs.com/" target="_blank">Express.js</a>
 
