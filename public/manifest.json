@@ -1,0 +1,19 @@
+{
+  "name": "Random Urbex Explorer",
+  "short_name": "RUE",
+  "lang": "en-EN",
+  "dir": "auto",
+  "display": "standalone",
+  "orientation": "any",
+  "start_url": "/",
+  "theme_color": "#737373",
+  "background_color": "#ffffff",
+  "icons": [
+    {
+      "purpose": "any",
+      "sizes": "64x64",
+      "src": "/images/web-icon.png",
+      "type": "image/png"
+    }
+  ]
+}

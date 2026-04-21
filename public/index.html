@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Urbex Explorer</title>
+    <link rel="icon" type="image/png" href="images/web-icon.png">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="manifest" href="/manifest.json">
+   
+    <!-- leaflet -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>EXPLORE THE BEST ABANDONED PLACES</h1>
+        </div>
+    </header>
+    <main>
+        <div class="form">
+            <form>
+                <label for="city-input">Explore in city:</label>
+                <input type="text" id="city-input" class="city-input">
+                <button type="button" class="explore-button">EXPLORE</button>
+            </form> 
+        </div>
+        <div id="map"></div>
+    </main>
+    <footer>
+        <div class="footer-info">
+            <p>Random Urbex Explorer, 2026</p>
+        </div>
+    </footer>
+<script src="js/map.js"></script>
+<script src="js/validator.js"></script> 
+<script>
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/sw.js');
+    }
+</script>
+</body>
+</html>
