@@ -10,6 +10,6 @@ Then run **npm install express** in the terminal.
 - <a href="https://nominatim.org/" target="_blank">Nominatim</a> (validates name of cities)
 
 ## Video
-<a href="https://streamable.com/qx1jx3v" target="_blank">
+<a href="https://streamable.com/qx1jx3?src=player-page-share" target="_blank">
   <img src="https://i.etsystatic.com/10919371/r/il/155a7d/1563938723/il_fullxfull.1563938723_1rmr.jpg" width="270" height="200" alt="video">
 </a>
