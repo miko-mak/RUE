@@ -3,7 +3,7 @@ A simple PWA website that lets you explore abandoned places and ruins around the
 
 ## Installation
 This project uses <a href="https://nodejs.org/en/download" target="_blank">Node.js</a>, so make sure you already have it.
-Then run **npm install express** in the terminal.
+Then run **npm install** in the terminal.
 
 ## APIs Used
 - <a href="https://wiki.openstreetmap.org/wiki/Overpass_API" target="_blank">Overpass API</a> (used for querying and filtering geographic data) 
