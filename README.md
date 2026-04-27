@@ -12,8 +12,3 @@ Then run **npm install** in the terminal.
 ## Tools Used
 - <a href="https://leafletjs.com/" target="_blank">LeafLet</a> (used for the world map)
 - <a href="https://expressjs.com/" target="_blank">Express.js</a>
-
-## Video
-<a href="https://streamable.com/qx1jx3?src=player-page-share" target="_blank">
-  <img src="https://i.etsystatic.com/10919371/r/il/155a7d/1563938723/il_fullxfull.1563938723_1rmr.jpg" width="270" height="200" alt="video">
-</a>
